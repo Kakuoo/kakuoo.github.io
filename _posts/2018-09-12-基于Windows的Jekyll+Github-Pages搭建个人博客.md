@@ -8,9 +8,11 @@ tags: [Blog,Jekyll]
 comments: true
 ---
 
-## A step-by-step guide to setting up [Jekyll](http://jekyllrb.com/) on Windows
 
-## 前言——突然想有一个属于自己的博客
+* This will become a table of contents (this text will be scraped).
+{:toc}
+
+# 前言——突然想有一个属于自己的博客
 
 Github很好的将代码和社区联系在了一起，于是发生了很多有趣的事情，世界也因为他美好了一点点。Github作为现在最流行的代码仓库，已经得到很多大公司和项目的青睐，比如jQuery、Twitter等。为使项目更方便的被人理解，介绍页面少不了，甚至会需要完整的文档站，Github替你想到了这一点，他提供了Github Pages的服务，不仅可以方便的为项目建立介绍站点，也可以用来建立个人博客。
 
@@ -33,45 +35,6 @@ Github Pages有以下几个优点：
 
 大致介绍到此，作为个人博客来说，简洁清爽的表达自己的工作、心得，就已达目标，所以Github Pages是我认为此需求最完美的解决方案了。
 
-[TOC]
-
-## 购买、绑定独立域名
-
-虽说Godaddy曾支持过SOPA（禁止网络盗版法案 Stop Online Piracy Act），并且首页放着极其不专业的大胸美女，但是作为域名服务商他做的还不赖，选择它最重要的原因是他支持支付宝，没有信用卡有时真的很难过。流传Godaddy的域名解析服务器被墙掉，导致域名无法访问，后来这个事情在BeiYuu也发生了，不得已需要把域名解析服务迁移到国内比较稳定的服务商处，这个迁移对于域名来说没有什么风险，最终的控制权还是在Godaddy那里，你随时都可以改回去。
-
-域名的购买不用多讲，注册、选域名、支付，有网购经验的都毫无压力，优惠码也遍地皆是。域名的配置需要提醒一下，因为伟大英明的GFW的存在，我们必须多做些事情。
-
-我们最终选择阿里云，阿里云收购了万网，我们可以通过阿里云来购买域名，这里需要先想好自己的域名，不然对于选择强迫症患者将会是异常灾难（.com,.cn,.ink ... ）有众多域名，其中我看好了一个（.me）的后缀的域名，可惜在2017年时依照国家相应网络域名整改办法，许多个性的域名被禁用了，如果是以前购买的话，不影响后面继续续费使用。
-
-
-
-## 配置和使用Github
-
-Git是版本管理的未来，他的优点我不再赘述，相关资料很多。推荐这本[Git中文教程](http://git-scm.com/book/zh)。
-
-要使用Git，需要安装它的客户端，推荐在Linux下使用Git，会比较方便。Windows版的下载地址在这里：[Windows版下载地址](https://git-scm.com/)。其他系统的安装也可以参考官方的安装教程。
-
-下载安装客户端之后，各个系统的配置就类似了，我们使用windows作为例子，Linux和Mac与此类似。
-
-在Windows下，打开Git Bash，其他系统下面则打开终端（Terminal）
-
-具体详细操作请参考如何配置Github一章。
-
-由于我本人之前已经配置过Github，SSH的链接已经配置完成，故可输入以下命令查看设置是否成功
-
-```cmd
-ssh -T git@github.com
-```
-
-反应如下：
-
-```cmd
-Hi Kakuoo! You've successfully authenticated, but GitHub does not provide shell access.
-```
-
-现在可以通过SSH链接到Github了，但还有一些个人信息需要完善。Git 的用户名字和邮箱需要提交，参照Git 的使用篇。（名字必须自己的名字，真实姓名，而不是Github的昵称）
-
-
 
 ## Github Pages + Jekyll 方案适合我吗？
 
@@ -88,7 +51,6 @@ Github Pages + Jekyll 方案的不足：
 >  由于生成的是静态网页，若要使用动态功能，如评论功能（下文解决），则要使用第三方服务。
 
 所以，如果你只是想做一个分享见闻心得的博客，这个方案非常适合你。
-
 
 
 ## 相关知识扫盲
@@ -131,7 +93,42 @@ Jekyll 是使用Ruby语言开发的一个简单的博客形态静态站点生成
 
 其它类似的静态(博客)网站生成工具还有Hugo（基于go语言）、Hexo（基于Node.js）、Octopress（基于jekyll）、Pelican（基于python）、Middleman（基于Ruby）等很多很多。更多其它请见这里。
 
+# Just do it ！
 
+## 购买、绑定独立域名
+
+虽说Godaddy曾支持过SOPA（禁止网络盗版法案 Stop Online Piracy Act），并且首页放着极其不专业的大胸美女，但是作为域名服务商他做的还不赖，选择它最重要的原因是他支持支付宝，没有信用卡有时真的很难过。流传Godaddy的域名解析服务器被墙掉，导致域名无法访问，后来这个事情在BeiYuu也发生了，不得已需要把域名解析服务迁移到国内比较稳定的服务商处，这个迁移对于域名来说没有什么风险，最终的控制权还是在Godaddy那里，你随时都可以改回去。
+
+域名的购买不用多讲，注册、选域名、支付，有网购经验的都毫无压力，优惠码也遍地皆是。域名的配置需要提醒一下，因为伟大英明的GFW的存在，我们必须多做些事情。
+
+我们最终选择阿里云，阿里云收购了万网，我们可以通过阿里云来购买域名，这里需要先想好自己的域名，不然对于选择强迫症患者将会是异常灾难（.com,.cn,.ink ... ）有众多域名，其中我看好了一个（.me）的后缀的域名，可惜在2017年时依照国家相应网络域名整改办法，许多个性的域名被禁用了，如果是以前购买的话，不影响后面继续续费使用。
+
+
+## 配置和使用Github
+
+Git是版本管理的未来，他的优点我不再赘述，相关资料很多。推荐这本[Git中文教程](http://git-scm.com/book/zh)。
+
+要使用Git，需要安装它的客户端，推荐在Linux下使用Git，会比较方便。Windows版的下载地址在这里：[Windows版下载地址](https://git-scm.com/)。其他系统的安装也可以参考官方的安装教程。
+
+下载安装客户端之后，各个系统的配置就类似了，我们使用windows作为例子，Linux和Mac与此类似。
+
+在Windows下，打开Git Bash，其他系统下面则打开终端（Terminal）
+
+具体详细操作请参考如何配置Github一章。
+
+由于我本人之前已经配置过Github，SSH的链接已经配置完成，故可输入以下命令查看设置是否成功
+
+```cmd
+ssh -T git@github.com
+```
+
+反应如下：
+
+```cmd
+Hi Kakuoo! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+现在可以通过SSH链接到Github了，但还有一些个人信息需要完善。Git 的用户名字和邮箱需要提交，参照Git 的使用篇。（名字必须自己的名字，真实姓名，而不是Github的昵称）
 
 ## 绑定域名到GitHub-Page
 
@@ -145,16 +142,15 @@ ping username.github.io
 
 可以得到当前github自动为你配置的虚拟主机的地址`185.199.109.153`，然后打开阿里云的网页并登陆，进入`管理控制台`，在`域名解析`的位置点击`新手引导`，在`*记录值`处填入上述地址，点击确定，实现自动配置。
 
-![阿里域名解析设置]({{site.url}}/img/jekyll_blog_img/AliDNS.png)
+![阿里域名解析设置]({{site.url}}/assets/jekyll_blog_img/AliDNS.png)
 
 接下来在github该博客的仓库里，添加`CNAME`文件（无后缀名），其内容仅为一行，即你购买的域名。
 
-![CNAME](/img/jekyll_blog_img/CNAME.png)
+![CNAME]({{site.url}}/assets/jekyll_blog_img/CNAME.png)
 
 之后在仓库的`Settings`的选项中，可以看到绿色的对勾显示为网站已成功设置为相应的域名，实现了绑定。
 
-![1552649350618](C:\Users\Kaku\AppData\Roaming\Typora\typora-user-images\1552649350618.png)
-
+![github_page]({{site.url}}/assets/jekyll_blog_img/github_page.png)
 
 
 ## 本地环境搭建
@@ -192,7 +188,7 @@ ping username.github.io
 
 下载[RubyInstaller]([http://rubyinstaller.org/downloads/](https://link.jianshu.com/?t=http://rubyinstaller.org/downloads/))并安装，勾选`Add Ruby executable to your PATH`自动添加至系统环境变量，安装至最后会弹出一个CMD窗口，是用来安装MSYS2的，选择`3`并`Enter`回车静静等待安装，整个安装过程比较顺利，但是看MSYS2的官网，还需要升级一下核心的包。 （我本人并未升级核心，不过升级核心的包并不是什么坏事）。
 
-![1552740596589](C:\Users\Kaku\AppData\Roaming\Typora\typora-user-images\1552740596589.png)
+![ruby_install.png]({{site.url}}/assets/jekyll_blog_img/ruby_install.png)
 
 在MSYS2的界面输入升级核心包的命令：`pacman -Syu`（升级核心包），升级过程可能由于网速不稳定不断报错，自行搭梯，多试几次。
 
@@ -238,8 +234,6 @@ jekyll 3.8.5
 gem install bundler
 gem install jekyll-paginate
 ```
-
-
 
 ## Jekyll的部署：
 
@@ -335,7 +329,7 @@ plugins:
 - jekyll-paginate: Jekyll提供的分页(paginate)插件，因此您可以自动生成分页列表所需的相应文件和文件夹。开启分页，在_config.yml文件中，通过`paginate:5`来指定每页列出几个文章。[Pagination - Jekyll • Simple, blog-aware, static sites](https://jekyllrb.com/docs/pagination/)
 - [Google Analytics（分析） - 网站分析和报告](https://www.google.com/analytics/)：分为两种：一个是用于跟踪Website，一个是用于跟踪Mobile app。创建Google Analytics 帐户需要填写网站名称，网站URL。时区 Reporting Time Zone：China (GMT+08:00) China Time - Beijing 。开启的地址：[Analytics](https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/)。相关介绍：[Google Analytics （分析） – 帮助中心](https://tumblr.zendesk.com/hc/zh-cn/articles/230864187-Google-Analytics-%E5%88%86%E6%9E%90-) ；[Set up Analytics tracking - Analytics Help](https://support.google.com/analytics/answer/1008080?hl=en)
 
-### _config.yml配置文件
+### `_config.yml`配置文件
 
 1、URL的配置
 
@@ -392,7 +386,6 @@ permalink: /mypageurl/
 简单来说是在html文件中嵌入Javascript代码，注册网站后都有较好的指导，并不困难。
 
 
-
 ## 使用Jekyll：
 
 ```cmd
@@ -444,7 +437,6 @@ bundle exec jekyll serve
 | Other Files/Folders                                  | 其他一些未被提及的目录和文件如 `css` 还有 `images` 文件夹，`favicon.ico` 等文件都将被完全拷贝到生成的 site 中。这里有一些[使用 Jekyll 的站点](http://jekyllcn.com/docs/sites/)，如果你感兴趣就来看看吧。 |
 
 安装完成后，如果你要配置你自己的站点信息，那么你就要修改`_config.yml`这个文件。里面可以配置站点名称，描述，多说，统计，友链等等。
-
 
 
 ## 应当注意的地方：
@@ -500,7 +492,7 @@ $ netstat -ano
 
 可以看到如下进程与所占用端口的对应情况，找到本地地址为 `127.0.0.1:4000` 的记录，看到该条记录的PID为6668 (当然你的和我的不一样)。
 
-![1553422220197](C:\Users\Kaku\AppData\Roaming\Typora\typora-user-images\1553422220197.png)
+![PID]({{site.url}}/assets/jekyll_blog_img/PID.png)
 
 输入命令
 
@@ -510,11 +502,11 @@ $ netstat -ano
 
 该进程的名称就会显示出来:
 
-![1553422232173](C:\Users\Kaku\AppData\Roaming\Typora\typora-user-images\1553422232173.png)
+![PID2]({{site.url}}/assets/jekyll_blog_img/PID2.png)
 
 打开windows的任务管理器，结束它：
 
-![1553422260261](C:\Users\Kaku\AppData\Roaming\Typora\typora-user-images\1553422260261.png)
+![winmanager]({{site.url}}/assets/jekyll_blog_img/winmanager.png)
 
 再次运行 `jekyll serve` 就可以了。
 
