@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Guo Bojia
+title: All Things DevOps - Python | C++ | Matlab | Linux
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -51,7 +51,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
+navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
@@ -68,10 +68,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "kakuguo.me@gmail.com"
+#  facebook: Kakuoo
+  github: Kakuoo
+#  twitter: Kakuoo
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
