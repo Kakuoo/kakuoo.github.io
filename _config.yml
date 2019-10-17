@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: All Things DevOps - Python | C++ | Matlab | Linux
+title: All Things DevOps #- Python | C++ | Matlab | Linux
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: 郭博嘉 要勤奋啊！
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
