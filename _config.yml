@@ -20,7 +20,9 @@ description: 郭博嘉 要勤奋啊！
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  Resume:
+    - 中文: "{{site.url}}/aboutme_zh-CN.md"
+    - English: "{{site.url}}/aboutme_en-US.md"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
