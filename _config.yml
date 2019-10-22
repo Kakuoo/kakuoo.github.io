@@ -11,7 +11,7 @@ description: 郭博嘉 要勤奋啊！
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-#url: "https://example.com"
+url: "https://kakuguo.ink"
 
 # baseurl should be an empty string
 #baseurl: ""
@@ -21,8 +21,8 @@ description: 郭博嘉 要勤奋啊！
 # List of links in the navigation bar
 navbar-links:
   Resume:
-    - 中文: "{{site.url}}/aboutme_zh-CN.md"
-    - English: "{{site.url}}/aboutme_en-US.md"
+    - 中文: "aboutme/aboutme_zh-CN"
+    - English: "aboutme/aboutme_en-US"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
@@ -158,7 +158,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
