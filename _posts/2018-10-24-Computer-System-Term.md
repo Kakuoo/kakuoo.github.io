@@ -20,6 +20,7 @@ Secure Boot是UEFI BIOS的一个子规则，位于传统(Legacy)BIOS的BOOT选�
 ## 一般双系统安装方式
 
 > MBR + BIOS / UEFI
+
 > GPT + UEFI
 
 ## UEFI & GRUB2
