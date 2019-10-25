@@ -24,7 +24,6 @@ navbar-links:
     - 中文: "aboutme/aboutme_zh-CN"
     - English: "aboutme/aboutme_en-US"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "http://deanattali.com"
 
@@ -160,6 +159,9 @@ date_format: "%B %-d, %Y"
 # Output options (more information on Jekyll's site)
 timezone: "Asia/Shanghai"
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 7
