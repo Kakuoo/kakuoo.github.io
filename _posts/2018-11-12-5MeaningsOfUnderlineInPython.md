@@ -11,7 +11,7 @@ comments: true
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
-# Python中下划线的5种含义
+# Abstract
 
 本文介绍了Python中单下划线和双下划线（"dunder"）的各种含义和命名约定，名称修饰（name mangling）的工作原理，以及它如何影响你自己的Python类。
 

@@ -1,14 +1,16 @@
 ---
 layout: post
 title: PyTorch中tensor.detach()和tensor.data的区别
-subtitle: false
+subtitle: 是否加入计算历史，requires_grad =False
 gh-repo: Kakuoo/kakuoo.github.io
 gh-badge: [star, fork, follow]
 tags: [Pytorch]
 comments: true
 ---
+* This will become a table of contents (this text will be scraped).
+{:toc}
 
-PyTorch0.4中，`.data `仍保留，但建议使用 `.detach()`，区别在于 `.data `返回和 x 的相同数据 tensor，但不会加入到x的计算历史里，且`require s_grad = False`，这样有些时候是不安全的，因为 x.data 不能被 autograd 追踪求微分 。 `.detach() `返回相同数据的 tensor ，且 `requires_grad=False `，但能通过` in-place `操作报告给 autograd 在进行反向传播的时候。
+PyTorch0.4中，`.data `仍保留，但建议使用 `.detach()`，区别在于 `.data `返回和 x 的相同数据 tensor，但不会加入到x的计算历史里，且`requires_grad = False`，这样有些时候是不安全的，因为 x.data 不能被 autograd 追踪求微分 。 `.detach() `返回相同数据的 tensor ，且 `requires_grad=False `，但能通过` in-place `操作报告给 autograd 在进行反向传播的时候。
 举例：
 
 ## tensor.detach()
