@@ -4,7 +4,7 @@ title: PyTorch中tensor.detach()和tensor.data的区别
 subtitle: 是否加入计算历史，requires_grad =False
 gh-repo: Kakuoo/kakuoo.github.io
 gh-badge: [star, fork, follow]
-tags: [Pytorch]
+tags: [PyTorch]
 comments: true
 ---
 * This will become a table of contents (this text will be scraped).
@@ -34,7 +34,7 @@ def detach(self):
         """
         result = NoGrad()(self)  # this is needed, because it merges version counters
         result._grad_fn = None
-　　　　 return resul
+　　　　 return result
 ```
 
 如果输入 `volatile=True(即不需要保存记录，当只需要结果而不需要更新参数时这么设置来加快运算速度)`，那么返回的`Variable` `volatile=True`。（`volatile`已经弃用）

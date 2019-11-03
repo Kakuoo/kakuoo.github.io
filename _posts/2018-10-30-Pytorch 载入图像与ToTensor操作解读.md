@@ -4,7 +4,7 @@ title: Pytorch 载入图像与ToTensor操作解读
 subtitle: false
 gh-repo: Kakuoo/kakuoo.github.io
 gh-badge: [star, fork, follow]
-tags: [Pytorch]
+tags: [PyTorch]
 comments: true
 ---
 

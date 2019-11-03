@@ -4,7 +4,7 @@ title: A step-by-step guide to setting up Jekyll on Windows
 subtitle: 突然想拥有一个属于自己的博客
 gh-repo: Kakuoo/kakuoo.github.io
 gh-badge: [star, fork, follow]
-tags: [Blog,Jekyll]
+tags: [Jekyll]
 comments: true
 ---
 
