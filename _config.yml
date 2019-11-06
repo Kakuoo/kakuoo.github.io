@@ -23,6 +23,7 @@ navbar-links:
   Resume:
     - 中文: "aboutme/aboutme_zh-CN"
     - English: "aboutme/aboutme_en-US"
+  Tags: "tags"
   Resources:
     - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "http://deanattali.com"
