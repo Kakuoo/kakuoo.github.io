@@ -86,7 +86,7 @@ cv2.IMREAD_UNCHANGED -1: Loads image as such including alpha channel 4通道图
 '''
 ```
 
-另外，PIL图像在转换为numpy.ndarray后，格式为(h,w,c)，像素顺序为RGB；
+另外，PIL图像(h,w,c)在转换为numpy.ndarray后，格式为(h,w,c)，像素顺序为RGB；
 OpenCV在cv2.imread()后数据类型为numpy.ndarray，格式为(h,w,c)，像素顺序为BGR。
 
 
@@ -183,8 +183,8 @@ def to_tensor(pic):
         return img
 ```
 
-可以从`F.to_tensor()`函数看出，函数接受PIL Image或numpy.ndarray，将其先由（h，w，c）转换成（c，h，w）格式，再转换成fFloat后对每个像素除以255。
+可以从`F.to_tensor()`函数看出，函数接受PIL Image或numpy.ndarray，将其先由`[h，w，c]`转换成`[c，h，w]`格式，数据从`int8`转换成`float32`后对每个像素除以255，范围调整至`[0, 1]`，像素顺序仍为`RGB`。
 
 
 
-**经常检查tensor_size是个好习惯: assert tensor.size() == (BS, D, H, W)**
+**经常检查tensor_size是个好习惯: assert tensor.size() == (BS, C, H, W)**

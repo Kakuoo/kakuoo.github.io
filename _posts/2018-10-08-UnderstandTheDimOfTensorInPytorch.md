@@ -150,3 +150,31 @@ tensor([[1.],
         [1.]])
 torch.Size([4, 1])
 ```
+
+## 三、transpose( )转置函数
+
+```python
+>>> d = np.ones([1,2,3])
+>>> d.shape
+(1, 2, 3)
+>>> d.transpose(1, 2, 0).shape
+(2, 3, 1)
+>>> d.transpose(2, 1, 0).shape
+(3, 2, 1)
+
+# 常用于Tensor转至pyplotlib显示图像
+img = torchvision.utils.make_grid(images)   # 此时，img.shape = (3, 242, 242)     C * H * W
+img = img.numpy().transpose(1, 2, 0)    	# 此时，img.shape = (242, 242, 3)	   H * W * C
+```
+
+```python
+from torchvision.transforms import Normalize
+tensor = Normalize((0.5, 0.5, 0.5),(0.5, 0.5, 0.5))(tensor)
+
+# 或是
+std = [0.5, 0.5, 0.5]
+mean = [0.5, 0.5, 0.5]
+img = img*std + mean      #  ([0, 1] - mean) / std => [-1, 1] 数据范围调整至[-1, 1]
+```
+
+(0.5, 0.5, 0.5)和(0.5, 0.5, 0.5)分别是三个通道的mean和std，([0, 1] - mean) / std => [-1, 1]
