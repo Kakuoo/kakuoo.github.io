@@ -24,9 +24,9 @@ navbar-links:
     - 中文: "aboutme/aboutme_zh-CN"
     - English: "aboutme/aboutme_en-US"
   Tags: "tags"
-  Resources:
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  # Resources:
+  #   - Learn markdown: "http://www.markdowntutorial.com/"
+  # Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -69,13 +69,13 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  # rss: true
   email: "kakuguo.me@gmail.com"
 #  facebook: Kakuoo
   github: Kakuoo
 #  twitter: Kakuoo
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: bojia-guo-b24a27193
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78

@@ -5,14 +5,50 @@ subtitle: The essentials
 use-site-title: false
 ---
 
-My name is Guo Bojia. I have the following qualities:
+My name is Guo Bojia. I am a M.S student in the Department of Artificial Intelligence, Xidian University since Sep 2018, supervised by [<u>Prof. Niu Yi</u>](https://web.xidian.edu.cn/niuyi/index.html), My research interests include computer vision, image processing, with focus on pose guided person image generation, style transfer, and deep generative models.
 
+<!-- Pose Guided Person Image Generation
+Style Transfer -->
 
 Education
 =========
 
 - M.S. in Artificial Intelligence, July, 2018, Xidian University, Xi'an, China.
 - B.Eng. in Electrical Engineering, July, 2014, Xidian University, Xi'an, China.
+
+
+Internship
+=========
+- Not yet
+
+
+Publications
+=========
+- Ma Mingming., Guo Bojia, Niu Y. (2019) Real-Time GF-4 Satellite Image Enhancement in Low Light Conditions. Proceedings of the 5th China High Resolution Earth Observation Conference (CHREOC 2018). CHREOC 2018. Lecture Notes in Electrical Engineering, vol 552. Springer, Singapore.[[<u>paper</u>]](https://link.springer.com/chapter/10.1007/978-981-13-6553-9_15)
+- 牛毅，郭博嘉，李宜烜， “基于自编码结构与梯度保序的视频风格转换方法”，国家专利，2019.（已提交）
+
+
+Skills
+=========
+
+- Language: **Python**, **C++**, Matlab, HTML, CSS
+- OS: a big fan of Linux, also a Windows user, a strong desire to use Mac, but limited by money
+- Tools: familiar with **Pytorch**, Keras & Tensorflow, Matlab
+<!-- have experience with Tensorflow,Keras -->
+- With **strong interest** in deep learning, also equipped with **competent mathematical modeling and data analysis ability**
+
+
+Teaching Assistance
+=========
+
+- 2019,Spring. Experiment of Imaging Electronics System
+- 2019,Fall. Data Structure and Algorithm (C/C++ language)
+
+
+More about me
+=========
+
+I am an ACG guy and the Leagues of Legend is my favourite game! Currently I try to write Tech blogs here.
 
 <!-- Employment
 ==========
@@ -48,6 +84,7 @@ Research Interests
   - Screen Contents Understanding
   - Visual Surveillance
 - Optimization and applications -->
+<br>
 
 Contacts
 ========
