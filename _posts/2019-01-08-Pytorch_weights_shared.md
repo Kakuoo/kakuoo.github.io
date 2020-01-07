@@ -19,7 +19,7 @@ class ConvNet(nn.Module):
     def forward(self, x):
         x = nn.functional.conv2d(x, self.conv_weight, bias=None, stride=1, padding=2, dilation=1, groups=1)
         x = nn.functional.conv2d(x, self.conv_weight.transpose(2, 3).contiguous(), bias=None, stride=1, padding=0, dilation=1, groups=1)
-return x
+    return x
 
 ```
 
@@ -76,7 +76,7 @@ class LinearNet2(nn.Module):
     def forward(self, x):
         x = x.mm(self.w)
         x = x.mm(self.w.t())
-return x
+    return x
 ```
 
 这个方法直接用mm函数将x与w相乘，与上边的网络效果相同。
