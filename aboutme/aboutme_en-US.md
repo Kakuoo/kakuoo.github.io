@@ -31,7 +31,7 @@ Publications
 Skills
 =========
 
-- Language: **Python**, **C++**, Matlab, HTML, CSS
+- Language: **Python**, **C++**, Matlab, Git, LaTeX, HTML, CSS
 - OS: a big fan of Linux, also a Windows user, a strong desire to use Mac, but limited by money
 - Tools: familiar with **Pytorch**, Keras & Tensorflow, Matlab
 <!-- have experience with Tensorflow,Keras -->

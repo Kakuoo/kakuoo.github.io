@@ -25,7 +25,7 @@ use-site-title: false
 
 ## 技能
 
-- 编程语言：**Python**, **C++**, Matlab, HTML, CSS
+- 编程语言：**Python**, **C++**, Matlab, Git, LaTeX, HTML, CSS
 - 操作系统：Linux的忠实粉丝，Windows的惯用者，有强烈使用Mac的愿望，但受限于经济因素
 - 框架：熟悉**Pytorch**, Keras & Tensorflow
 - 热忱于深度学习，具备相应的数学建模和数据分析能力
