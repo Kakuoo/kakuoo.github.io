@@ -2,7 +2,7 @@
 layout: post
 title: Pytorch之contiguous函数
 subtitle: false
-tags: [Pytorch]
+tags: [PyTorch]
 ---
 <!-- ## Pytorch之contiguous函数 -->
 

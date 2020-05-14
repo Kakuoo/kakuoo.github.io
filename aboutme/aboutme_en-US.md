@@ -33,7 +33,7 @@ Skills
 
 - Language: **Python**, **C++**, Matlab, Git, LaTeX, HTML, CSS
 - OS: a big fan of Linux, also a Windows user, a strong desire to use Mac, but limited by money
-- Tools: familiar with **Pytorch**, Keras & Tensorflow, Matlab
+- Tools: familiar with **Pytorch**, Keras & Tensorflow
 <!-- have experience with Tensorflow,Keras -->
 - With **strong interest** in deep learning, also equipped with **competent mathematical modeling and data analysis ability**
 
