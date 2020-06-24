@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pytorch参数共享
+title: PyTorch参数共享
 subtitle: false
 tags: [PyTorch]
 ---

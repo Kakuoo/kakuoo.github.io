@@ -2,7 +2,7 @@
 layout: post
 title: Python文件读写
 subtitle: 相比于open()，更建议使用codecs.open()
-tags: [PyTorch]
+tags: [Python]
 ---
 
 <!-- ## Python文件读写 -->

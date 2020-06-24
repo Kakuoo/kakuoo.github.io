@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Computer System Term
+title: 重装系统时总会碰到的疑惑
 subtitle: 系统相关名词解释
 gh-repo: Kakuoo/kakuoo.github.io
 gh-badge: [star, fork, follow]

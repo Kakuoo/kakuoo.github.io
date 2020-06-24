@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Pytorch之contiguous函数
+title: PyTorch之contiguous函数
 subtitle: false
 tags: [PyTorch]
 ---
+
 <!-- ## Pytorch之contiguous函数 -->
 
 ### 官方中英文doc
@@ -39,7 +40,7 @@ y.view(-1)                 # OK
 在pytorch中，只有很少几个操作是不改变tensor的内容本身，而**只是重新定义下标与元素的对应关系**。换句话说，这种操作**不进行数据拷贝和数据的改变，变的是元数据**，这些操作是：
 
 ```python
-narrow()，view()，expand()，transpose()；
+narrow(), view(), expand(), transpose()
 ```
 
 举个栗子，在使用transpose()进行转置操作时，**pytorch并不会创建新的、转置后的tensor**，而是**修改了tensor中的一些属性（也就是元数据），使得此时的offset和stride是与转置tensor相对应的**，而**转置的tensor和原tensor的内存是共享的**！
