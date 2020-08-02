@@ -7,8 +7,9 @@ tags: [Tools]
 
 * This will become a table of contents (this text will be scraped).
 {:toc}
-
 <!-- ## tmux使用指南 -->
+
+最近由于疫情原因不能返校，只能通过 SSH 远程链接学校的电脑和服务器跑程序。但是使用 SSH 进行远程终端操作时，会将每次 SSH 连接的会话 (session) 与进程进行绑定。当关闭或者断开 SSH 链接时，正在运行的进程也会随之终止。这种问题可通过使用 screen 或 tmux，将 SSH 中的进程调到后台运行进行解决。
 
 tmux是一个 (`Terminal Multiplexer`终端复用器的简称），它可以启动一系列终端会话。
 
