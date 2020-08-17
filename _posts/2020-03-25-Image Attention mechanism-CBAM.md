@@ -25,7 +25,7 @@ tags: [Computer Vision]
 在网络宽度方面，GoogleNet是一个重要尝试，该结构将CNN中常用的卷积（1x1，3x3，5x5）、池化操作（3x3）堆叠在一起（卷积、池化后的尺寸相同，将通道相加），增加了网络的宽度。
 
 <!-- ![Inception](D:\ProgramData\Git_Repository\Kakuoo.github.io\assets\blog_images\attention_mechanism\Inception.jpg) -->
-![Inception]({{site.url}}/assets/blog_images/attention_mechanism/Inception.png)
+![Inception]({{site.url}}/assets/blog_images/attention_mechanism/Inception.jpg)
 
 在网络基数方面，Facebook的ResNeXt是一个很好的工作，何为基数（cardinality）呢？Cardinatity指的是一个block中所具有的相同分支的数目。ResNeXt通过一系列实验证明了，加大基数能够达到甚至超越加大宽度和深度的效果，具有更强的特征表现能力。
 

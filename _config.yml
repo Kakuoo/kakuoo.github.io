@@ -165,7 +165,7 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 7
+paginate: 8
 
 kramdown:
   input: GFM
